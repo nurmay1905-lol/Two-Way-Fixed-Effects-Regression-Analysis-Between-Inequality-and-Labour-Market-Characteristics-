@@ -1,0 +1,36 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{5}{c}{gini}\\
+                       & Union Density & Bargaining Cov  & Dual Model & Full Inst & Sectoral UD \\   
+   Model:              & (1)           & (2)             & (3)        & (4)       & (5)\\  
+   \midrule
+   \emph{Variables}\\
+   UD\_hist            & -0.0197       &                 & -0.0247    & -0.0159   &   \\   
+                       & (0.0516)      &                 & (0.0654)   & (0.0660)  &   \\   
+   AdjCov\_hist        &               & -0.0314$^{***}$ & -0.0041    & -0.0044   &   \\   
+                       &               & (0.0084)        & (0.0163)   & (0.0170)  &   \\   
+   WC                  &               &                 &            & -0.1443   &   \\   
+                       &               &                 &            & (0.6009)  &   \\   
+   UD\_private\_hist   &               &                 &            &           & -0.2658$^{**}$\\   
+                       &               &                 &            &           & (0.1096)\\   
+   UD\_public\_hist    &               &                 &            &           & 0.0030\\   
+                       &               &                 &            &           & (0.0164)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   ISO                 & Yes           & Yes             & Yes        & Yes       & Yes\\  
+   Year                & Yes           & Yes             & Yes        & Yes       & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations        & 646           & 477             & 399        & 381       & 269\\  
+   R$^2$               & 0.96248       & 0.96395         & 0.97419    & 0.97243   & 0.98312\\  
+   Within R$^2$        & 0.00107       & 0.03168         & 0.00318    & 0.00185   & 0.11475\\  
+   \midrule \midrule
+   \multicolumn{6}{l}{\emph{Clustered (ISO) standard-errors in parentheses}}\\
+   \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+
