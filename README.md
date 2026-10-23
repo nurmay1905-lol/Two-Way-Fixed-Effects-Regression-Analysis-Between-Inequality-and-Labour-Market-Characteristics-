@@ -63,6 +63,12 @@ This confirms that works councils operate as a **long-run structural anchor** (b
 
 ---
 
+* [Table 1 TWFE (CSV)](./table1_twfe.csv)
+* [Table 1 TWFE (LaTeX)](./table1_twfe.tex)
+* [Table 2 Institutional (CSV)](./table2_institutional.csv)
+* [Table 2 Institutional (LaTeX)](./table2_institutional.tex)
+* [Table 3 Robustness (CSV)](./table3_robustness.csv)
+
 ## 🛠️ Reproduction & Code Usage
 
 ### Prerequisites
